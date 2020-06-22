@@ -13,19 +13,24 @@
 </script>
 
 <style scoped>
-  .nav-bar {
+  .nav-bar{
     display: flex;
-    height: 44px;
     line-height: 44px;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(100,100,100,.1);
+    height: 44px;
+    box-shadow: 0px 1px 2px rgba(100,100,100,0.1);
+    width: 100%;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*pdding-bottom: 44px;*/
+    z-index: 9;
   }
-
-  .left, .right {
+  .left,.right{
     width: 60px;
+    /*background: #000;*/
   }
-
-  .center {
+  .center{
     flex: 1;
+    text-align: center;
+    /*background: red;*/
   }
 </style>
