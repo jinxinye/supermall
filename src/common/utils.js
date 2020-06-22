@@ -1,3 +1,5 @@
+//对时间梭数据包装为评论正常的显示时间
+
 export function formatDate(date, fmt) {
   if (/(y+)/.test(fmt)) {
     fmt = fmt.replace(RegExp.$1, (date.getFullYear() + '').substr(4 - RegExp.$1.length));

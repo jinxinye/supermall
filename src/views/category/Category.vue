@@ -21,6 +21,7 @@
 </template>
 
 <script>
+  //对分类的页面进行请求数据， 
   import NavBar from 'components/common/navbar/NavBar'
 
   import TabMenu from './childComps/TabMenu'
@@ -104,6 +105,8 @@
           this._getCategoryDetail(SELL)
           this._getCategoryDetail(NEW)
         })
+
+
       },
       _getCategoryDetail(type) {
         // 1.获取请求的miniWallkey
